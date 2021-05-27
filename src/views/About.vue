@@ -41,7 +41,7 @@ export default {
 
       setInterval(()=>{
           let index = this.params.highlight.row.values().next().value;
-          console.log(index)
+          // console.log(index)
           this.params.highlight= { row: [index%(self.params.data.length-1) +1]};
           index++;
           

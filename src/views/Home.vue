@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
-    <HelloWorld/>
-  </div>
+  <HelloWorld/>
 </template>
 
 <script>
