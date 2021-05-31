@@ -91,8 +91,8 @@ export default {
       noCollapse: false,
     };  
   },
-  mounted(){
-      setInterval(()=>{
+  created(){
+    setInterval(()=>{
 
         let i=0
         
@@ -106,7 +106,7 @@ export default {
             
         }
           
-      }, 1000)
+      }, 1000)  
   }
 };
 
